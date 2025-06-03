@@ -138,3 +138,8 @@
   object-fit: cover;
   display: block;
 }
+@media print {
+  .ocultar-al-imprimir {
+    display: none !important;
+  }
+}
